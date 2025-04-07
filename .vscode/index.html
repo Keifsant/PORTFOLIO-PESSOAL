@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Projeto Portfólio">
         <meta name="author" content="Generation Brasil">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <link rel="icon" type="image/svg" href="./assets/img/imagens/astronauta.svg" />
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        
         <title>Meu Perfil</title>
+
+
     </head>
 
 <body>
-<header>
+	<!-- Cabeçalho da Página (header) -->
+    <header>
 
-<div id="header_content">
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content" class="flex">
 
-    <div id="titulo">
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo">
 
-        <h1>Generation Brasil</h1>
+                <!-- Seu nome -->
+                <h1>Generation Brasil</h1>
 
-    </div>
+            </div>
 
-    <div id="menu">
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
 
-        <nav>
-            <ul id="menu">
+                <!-- Menu da Página -->
+                <nav>
 
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato </a>
-        </li>
-        </ul>
-        </nav>
+                    <!-- Marcadores não ordenados + links -->
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
 
-    </div>
+                </nav>
 
-    </div>
+            </div>
 
-</header>
+        </div>
+
+    </header>
 
 <main>
 
-    <section id="about">
+    <section id="about" class="flex_start">
 
         <h2>Sobre Generation</h2>
 
-        <div id="conteudo">
+        <div id="conteudo" class="flex">
 
             <img
-						src="assets/img/imagens/generation.jpeg"
-                        width="200"
+						src="assets/img/imagens/download.png"
+                        width="300"
 						alt="Foto do criador desse conteudo"
-                        style="border-radius: 50%;"
+                        style="border-radius: 25%;"
 					/>
 
             <article id="sobre_texto">
@@ -67,11 +81,11 @@
 
     </section>
 
-    <section id="video">
+    <section id="video" clas="flex_start">
 
         <h2>Meu video favorito</h2>
 
-        <div id="Youtube">
+        <div id="Youtube" class="flex">
             <iframe
             width="560"
 						height="315"
@@ -85,12 +99,15 @@
 
 </main>
 
-<footer>
+<footer class="flex">
 
     <section id="redes_sociais">
 
         <a href="https://www.linkedin.com/school/generationbrasil/">
-            <img src="assets/img/imagens/linkedin.svg" alt="LinkedIn" />
+            <img 
+            src="assets/img/imagens/linkedin.svg";
+            alt="LinkedIn" 
+            />
         </a>
         <a href="https://www.facebook.com/generationbrasil/">
             <img src="assets/img/imagens/facebook.svg" alt="Facebook" />
@@ -99,7 +116,7 @@
             <img src="assets/img/imagens/instagram.svg" alt="Instagram" />
         </a>
 
- </footer>
+</footer>
 
- </body>
+</body>
 </html>

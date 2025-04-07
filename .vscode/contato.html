@@ -7,6 +7,8 @@
     <meta neme="author" content="Generation Brasil">
     <meta name=""keywords content="HTML, CSS, JavaScript">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
     </head>
 
     <body>
@@ -38,7 +40,7 @@
 
         <main>
 
-            <section id="contact">
+            <section id="contact" class="flex">
 
                 <form action="#" method="submit" id="formulario">
                     <label for="nome">Nome: </label>
@@ -83,11 +85,12 @@
 					<button type="submit">Enviar</button>
                     </form>
 
-                    <article id="mapa">
+                    <section id="mapa" class="flex_start">
 
+                        <div id="endereco"> 
                         <p>Av. Paulista, 100</p>
                         <p>São Paulo - SP</p>
-                    
+                        </div>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.14386865456!2d-46.92495573160536!3d-23.682063556622076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1743088493127!5m2!1spt-BR!2sbr" 
                             width="400" 
@@ -97,31 +100,35 @@
                             loading="lazy" 
                             referrerpolicy="no-referrer-when-downgrade"
                             aria-hidden="false"
-						    tabindex="0"
-						    id="mapa">
+						tabindex="0"
+						id="mapa">
                         </iframe>
                             
-                    </article>
+                    </section>
 
                 </section>
         </main>
 
-        <footer>
-                    <section id="redes_sociais">
+		<footer class="flex">
 
-                        <a href="">
-                            <img src="assets/img/imagens/linkedin.svg" alt="LinkedIn" />
-                        </a>
-                        <a href="">
-                            <img src="assets/img/imagens/github.svg" alt="Github" />
-                        </a>
-                        <a href="">
-                            <img src="assets/img/imagens/instagram.svg" alt="Instagram" />
-                        </a>
-            </section>
-        
-            <h3>Feito com amor 🧡 Generation Brasil</h3>
+		
+			<section id="redes_sociais">
 
-        </footer>
+				<a href="">
+					<img src="assets/img/imagens/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/imagens/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/imagens/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
+
+			</section>
+
+			<h3>Feito com 🧡 por Generation Brasil - 2025</h3>
+
+		</footer>
+
     </body>
 </html>
